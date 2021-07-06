@@ -6,3 +6,11 @@ console.log(orig.trim()); // 'foo'
 
 var orig = 'foo    ';
 console.log(orig.trim()); // 'foo'
+function act(a,b)
+var orig = '   foo  ';
+console.log(orig.trim()); // 'foo'
+
+// Otro ejemplo de .trim() eliminando el espacio en blanco sólo de un lado.
+
+var orig = 'foo    ';
+console.log(orig.trim()); // 'foo'
